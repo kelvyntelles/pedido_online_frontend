@@ -1,6 +1,11 @@
+import { Head } from "../../../components/Head"
+import SnackTitle from "../../../components/SnackTitle"
+
 export default function IceCreams() {
   return (
-    <h1>Sorvetes</h1>
+    <>
+    <Head title="Sorvetes" />
+    <SnackTitle>Sorvetes</SnackTitle>
+    </>
   )
 }
-
